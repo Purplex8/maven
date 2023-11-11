@@ -1,0 +1,39 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0  http://maven.apache.org/xsd/maven-v4_0_0.xsd">
+	
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.merion</groupId>
+    <artifactId>maven</artifactId>
+    <version>1.0.0</version>
+
+    <packaging>pom</packaging>
+    <name>suite</name>
+    <url>https://maven.apache.org/</url>
+
+    <properties>
+        <maven.compiler.sourse>17</maven.compiler.sourse>
+        <maven.compiler.target>17</maven.compiler.target>
+    </properties>
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>http://www.opensourse.org/licenses/mit-license.ph</url>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <name>Antonyk Alexey</name>
+            <email>aleksey-77.92@mail.ru</email>
+            <organization>com.github.antonyk-alexey</organization>
+            <organizationUrl>https://github.com/Purplex8</organizationUrl>
+        </developer>
+    </developers>
+
+    <modules>
+        <module>../core</module>
+        <module>../service</module>
+        <module>../console</module>
+    </modules>
+
+</project>
